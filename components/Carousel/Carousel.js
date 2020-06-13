@@ -17,3 +17,48 @@
     <div class="right-button"> > </div>
   </div>
 */
+
+//creating HTML structure for carousel
+function carouselCard() {
+
+  //creating elements
+  const carouselDiv = document.createElement('div');
+  const leftButton = document.createElement('div');
+  const firstImg = document.createElement('div');
+  const secondImg = document.createElement('div');
+  const thirdImg = document.createElement('div');
+  const forthImg = document.createElement('div');
+  const rigthButton = document.createElement('div');
+
+  //creating elements class
+  carouselDiv.classList.add('carousel');
+  leftButton.classList.add('left-button');
+  rigthButton.classList.add('right-button');
+
+  //adding children to parent elements
+  carouselDiv.appendChild(leftButton);
+  carouselDiv.appendChild(firstImg);
+  carouselDiv.appendChild(secondImg);
+  carouselDiv.appendChild(thirdImg);
+  carouselDiv.appendChild(forthImg);
+  carouselDiv.appendChild(rigthButton);
+
+  //adding content to img
+  firstImg.src = './assets/carousel/mountains.jpeg';
+  secondImg.src = './assets/carousel/computer.jpeg';
+  thirdImg.src = './assets/carousel/trees.jpeg';
+  forthImg.src = './assets/carousel/turntable.jpeg'
+  leftButton.textContent = '<';
+  rigthButton.textContent = '>';
+  
+
+  return carouselDiv;
+
+}
+
+//to see carousel HTML structure in the console
+console.log(carouselCard())
+
+const carouselContainer = document.querySelector('.carousel-container');
+
+carouselContainer.appendChild(carouselCard())
