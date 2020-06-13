@@ -29,21 +29,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead.
 
 1. What is the DOM?
+    DOM is a Document Object Model, and it is a programming interface for HTML.  All the HTML elements in DOM are defined as objects, and we can create, edit or delete using Javascript.
 
 2. What is an event?
+    Events in the DOM are actions that happens to the DOM when a user process the event in differents ways.  User needs to create a function to interact with the event.
 
 3. What is an event listener?
+    Event listener is the one that handles the events, and when a event happens, the event listener is programmed to react to a signal by calling the event handler. as like clicking a element or moving a mouse and changing the style
 
 4. Why would we convert a NodeList into an Array?
+    we convert a Nodelist into an Array so we can interact with many more methods. if its not an array we will have limited methods to work with.
 
 5. What is a component?
+    component are reusable bits of code.  with components, we will create, edit delete elements in the HTML using JavaScript.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [ x] Fork the project into your GitHub user account
+* [x ] Clone the forked project into a directory on your machine
+* [x ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [ x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
